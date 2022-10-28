@@ -46,7 +46,7 @@ public class DieselCar extends AFuelCar {
 
     @Override
     public String toString() {
-        return make + " " + model + ", " +
+        return '\n'+make + " " + model + ", " +
                 "KmPrLitre:" + kmPrLitre + ", " +
                 "Number of doors:" + numberOfDoors + ", " +
                 "Registration number:" + registrationNumber+'\n';

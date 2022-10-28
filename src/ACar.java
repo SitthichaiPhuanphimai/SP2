@@ -29,7 +29,7 @@ public abstract class ACar implements Car{
 
     @Override
     public String toString() {
-        return make+ " "+ model+ ", "+
+        return '\n'+make+ " "+ model+ ", "+
                 "Number of doors:"+numberOfDoors+", "+
                 "Registration number:"+registrationNumber;
 

@@ -2,9 +2,9 @@ import java.util.ArrayList;
 
 public class FleetOfCars {
 
-    ArrayList<Car> fleetOfCars = new ArrayList<Car>();
+    ArrayList<Car> fleetOfCars = new ArrayList<>();
 
-    public void addCar(ACar car){
+    public void addCar(Car car){
 
         fleetOfCars.add(car);
     }

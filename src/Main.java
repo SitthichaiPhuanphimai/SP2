@@ -2,20 +2,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        FleetOfCars fleetOfCars = new FleetOfCars();
+        FleetOfCars allCars = new FleetOfCars();
 
-        ACar audi = new GasolinCar(8,"EW213", "Audi", "Q5",4);
-        ACar ford = new DieselCar(17,"XY105","Ford", "Fiesta",4,true);
-        ACar volvo = new ElectricCar(2,450,"Volvo", "XC60", "AQ547",4);
-        ACar toyota = new DieselCar(19,"LT9384","Toyota","Avensis",5,false);
+        Car audi = new GasolinCar(8,"EW213", "Audi", "Q5",4);
+        Car ford = new DieselCar(17,"XY105","Ford", "Fiesta",4,true);
+        Car volvo = new ElectricCar(2,450,"Volvo", "XC60", "AQ547",4);
+        Car toyota = new DieselCar(33,"LT9384","Toyota","Avensis",5,false);
 
-        fleetOfCars.addCar(audi);
-        fleetOfCars.addCar(ford);
-        fleetOfCars.addCar(volvo);
-        fleetOfCars.addCar(toyota);
+        allCars.addCar(audi);
+        allCars.addCar(ford);
+        allCars.addCar(volvo);
+        allCars.addCar(toyota);
 
-        System.out.println(fleetOfCars.toString());
-        System.out.println(fleetOfCars.calculateTotal(fleetOfCars));
+        System.out.println(allCars.toString());
+        System.out.println(allCars.calculateTotal(allCars));
 
 
 

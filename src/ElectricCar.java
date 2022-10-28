@@ -62,7 +62,7 @@ public class ElectricCar extends ACar{
 
     @Override
     public String toString() {
-        return  make+" "+ model + ", "+
+        return '\n'+ make+" "+ model + ", "+
                 "Battery Capacity:"+ batteryCapacity+", "+
                 "Max Range:"+maxRange+", "+
                 "Number of doors:"+numberOfDoors+", "+
